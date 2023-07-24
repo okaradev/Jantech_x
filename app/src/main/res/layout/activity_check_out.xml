@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Users.Customers.CheckOut">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:id="@+id/progressCheckout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:id="@+id/layout_checkout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="75dp"
+                android:orientation="vertical"
+                android:paddingBottom="90sp"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="1dp">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:cardElevation="8dp"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Personal details"
+                            android:textColor="@color/text_color"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:id="@+id/txv_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Name"
+                            android:textColor="@color/text_color"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txv_phoneNo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Phone No"
+                            android:textColor="@color/text_color"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txv_email"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="10dp"
+                            android:text="Email"
+                            android:textColor="@color/text_color"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:cardElevation="8dp"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Delivery details"
+                            android:textColor="@color/text_color"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@+id/img_edit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_marginRight="25sp"
+                            android:src="@drawable/ic_edit" />
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="*County "
+                            app:boxBackgroundColor="@null">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/edt_county"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="*Town "
+                            app:boxBackgroundColor="@null">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/edt_town"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="*Address "
+                            android:paddingBottom="10dp"
+                            app:boxBackgroundColor="@null">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/edt_Address"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="number" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="*Location description"
+                            android:paddingBottom="10dp"
+                            app:boxBackgroundColor="@null">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/edt_location"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+
+                            <RadioGroup
+                                android:id="@+id/rbtn_group"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <RadioButton
+                                    android:id="@+id/rb_no_shipping"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="No shipping" />
+
+                                <RadioButton
+                                    android:id="@+id/rb_shipping"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Shipping" />
+
+                                <TextView
+                                    android:id="@+id/txv_order_cost"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Order cost"
+                                    android:textColor="@color/text_color"
+                                    android:textStyle="bold" />
+                            </RadioGroup>
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:cardElevation="8dp"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Payment"
+                            android:textColor="@color/text_color"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:id="@+id/txv_shiping_cost"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Delivery cost"
+                            android:textColor="@color/text_color"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txv_total_cost"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="5dp"
+                            android:text="Total cost"
+                            android:textColor="@color/text_color"
+                            android:textStyle="bold" />
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Totals cost"
+                            android:paddingBottom="10dp"
+                            app:boxBackgroundColor="@null">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/edt_cost"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="*Delivery date"
+                            android:paddingBottom="10dp"
+                            app:boxBackgroundColor="@null">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/edt_deliveryDate"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="*Mpesa code"
+                            android:paddingBottom="10dp"
+                            app:boxBackgroundColor="@null">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/edt_mpesaCode"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <RelativeLayout
+                    android:id="@+id/layout_bottom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true">
+
+                    <Button
+                        android:visibility="visible"
+                        android:id="@+id/btn_order"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25sp"
+                        android:layout_marginRight="25sp"
+                        android:background="@color/purple_500"
+
+                        android:text="Order Now"
+                        android:textColor="@color/white" />
+
+                    <ProgressBar
+                        android:id="@id/progressBar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+
+
+        <Button
+            android:id="@+id/btn_enter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="15sp"
+            android:backgroundTint="@color/btn_color"
+            android:text="Enter delivery details" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

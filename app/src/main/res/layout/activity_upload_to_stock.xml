@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Users.Staff.Supplier.UploadToStock">
+    <TextView
+        android:textSize="32dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send to stock"
+
+        />
+    <EditText
+        android:id="@+id/stock_name"
+        android:layout_margin="21dp"
+        android:hint="Enter Stock name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/stock_quantity"
+        android:layout_margin="21dp"
+        android:inputType="number"
+        android:hint="Enter Stock quantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/stock_des"
+        android:layout_margin="21dp"
+        android:hint="Enter Stock Description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imagestock"
+        android:visibility="gone"
+        />
+    <EditText
+        android:id="@+id/stock_img"
+        android:layout_margin="21dp"
+        android:hint="Enter Stock image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/stock_btn"
+        android:layout_margin="21dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+
+        />
+
+
+
+
+</LinearLayout>

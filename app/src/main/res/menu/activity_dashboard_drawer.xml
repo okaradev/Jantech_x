@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view_user">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_new_bookings"
+            android:title="New transaction" />
+        <item
+            android:id="@+id/nav_approvedBookings"
+            android:title="Approved transaction" />
+        <item
+            android:id="@+id/nav_rejectedBookings"
+            android:title="Rejected transaction" />
+        <item
+            android:id="@+id/nav_new_fines"
+            android:title="New service fee" />
+        <item
+            android:id="@+id/nav_approved_fine_pay"
+            android:title="Approved service fee" />
+        <item
+            android:id="@+id/nav_rejected_service"
+            android:title="rejected services fee" />
+        <item
+            android:id="@+id/nav_tents_to_deliver"
+            android:title="Items to deliver " />
+
+        <item
+            android:id="@+id/servicetodel"
+            android:title="Product to deliver " />
+        <item
+            android:id="@+id/tech_assign"
+            android:title="Assign Tech" />
+        <item
+            android:id="@+id/supervisor_assign"
+            android:title="Assign Product" />
+        <item
+            android:id="@+id/nav_shipping"
+            android:title="Shipping " />
+        <item
+            android:id="@+id/nav_delivered_"
+            android:title="Delivered" />
+        <item
+            android:id="@+id/nav_assigned_bookings"
+            android:title="Assigned " />
+        <item
+            android:id="@+id/services_to_supervise"
+            android:title="Task " />
+        <item
+            android:id="@+id/addstock"
+            android:title="Add to Stock " />
+
+        <item
+            android:id="@+id/nav_assigned_tech"
+            android:title="Assigned " />
+        <item
+            android:id="@+id/nav_issued"
+            android:title="Delivered" />
+        <item
+            android:id="@+id/nav_my_deliveries"
+            android:title="Confirmed deliveries" />
+        <item
+            android:id="@+id/nav_to_return"
+            android:title="Items to return" />
+        <item
+            android:id="@+id/nav_my_returns"
+            android:title="Returned" />
+        <item
+            android:id="@+id/nav_stock"
+            android:title="Stock" />
+        <item
+            android:id="@+id/nav_issued_fines"
+            android:title="Issued fines" />
+        <item
+            android:id="@+id/nav_items_returned"
+            android:title="Returned" />
+        <item
+            android:id="@+id/nav_return_hist"
+            android:title="Return history" />
+        <item
+            android:id="@+id/approvestock"
+            android:title="Approve Stock" />
+
+        <item
+            android:id="@+id/nav_pending_return"
+            android:title="Pending return" />
+        <item
+            android:id="@+id/nav_shipping_back"
+            android:title="Shipping back" />
+        <item
+            android:id="@+id/nav_returned"
+            android:title="Returned" />
+
+
+
+        <item
+            android:id="@+id/services_to_deliver"
+            android:title="Services" />
+        <item
+            android:id="@+id/id_trainee"
+            android:title="Trainee" />
+
+
+        <item
+            android:id="@+id/all_events"
+            android:title="Events" />
+        <item
+            android:id="@+id/servicefeedback"
+            android:orderInCategory="100"
+            android:title="Feedback"
+            />
+        <item
+            android:id="@+id/feedbackf"
+            android:orderInCategory="100"
+            android:title="Feedback finance"
+            />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Logout" />
+
+
+    </group>
+</menu>

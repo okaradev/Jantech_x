@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dashboard_navigation"
+    app:startDestination="@+id/nav_view_dashboard">
+
+    <fragment
+        android:id="@+id/nav_view_dashboard"
+        android:name="com.krypt.Hubble.Users.Staff.FragmentProfile"
+        android:label="Dashboard"
+        tools:layout="@layout/fragment_profile" />
+
+
+</navigation>

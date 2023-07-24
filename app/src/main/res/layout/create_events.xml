@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+
+    tools:context=".Users.Staff.ProjectManager.Eventscreate"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <EditText
+        android:layout_margin="21dp"
+        android:id="@+id/event_create_title"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Event title"
+        />
+    <EditText
+        android:gravity="center"
+        android:layout_margin="21dp"
+        android:hint="Event description"
+        android:id="@+id/event_create_desc"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        />
+    <Button
+        android:layout_margin="21dp"
+        android:text="Create an event"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

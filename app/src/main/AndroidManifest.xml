@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.krypt.Hubble">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KAEWATMS"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Users.Staff.Store_man.AddStockSupplier"
+            />
+        <activity android:name=".Users.Staff.Store_man.AddStock"/>
+        <activity android:name=".Users.Staff.Store_man.AddSupplierStock"
+            />
+        <activity
+            android:name=".Users.Staff.Supplier.UploadToStock"
+            android:exported="false" />
+        <activity
+            android:name=".Users.Staff.Shipping.PendingShipping1"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Users.Staff.Supervisor.FeedbackService"
+            android:exported="false"
+             />
+        <activity android:name=".Users.Staff.Shipping.PendingShippingTechs"
+            android:exported="false"
+            />
+        <activity android:name=".Users.Staff.Shipping.PendingShipping"
+            android:exported="false"/>
+        <activity
+            android:name=".Users.Staff.Trainee.Trainee"
+            android:exported="false" />
+        <activity
+            android:name=".Users.Staff.ItemsServ"
+            android:exported="false" />
+        <activity
+            android:name=".Users.Staff.Finance.FeedbackFinance"
+            android:exported="false" />
+        <activity
+            android:name=".Users.Staff.Shipping.Techs"
+            android:exported="false" />
+        <activity
+            android:name=".Users.Staff.Shipping.Supers"
+            android:exported="false" />
+        <activity
+            android:name=".Users.Staff.ItemsSup"
+            android:exported="false" />
+
+        <activity
+            android:name=".Users.Staff.Shipping.PendingShippingSuper"
+            android:exported="false" />
+        <activity
+            android:name=".Users.Customers.PaymentItems"
+            android:exported="false" />
+        <activity
+            android:name=".SearchItem"
+            android:exported="false" />
+        <activity
+            android:name=".Users.Staff.Supervisor.Technician.Assigned"
+            android:exported="false" />
+        <activity
+            android:name=".Users.Customers.Search"
+            android:exported="false" />
+        <activity
+            android:name=".FeedbackActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FeedbackServiceManager"
+            android:exported="false" />
+        <activity
+            android:name=".About"
+            android:exported="false" />
+        <activity
+            android:name=".Help_act"
+            android:exported="false" />
+        <activity
+            android:name=".Users.Staff.Finance.FineHistory"
+            android:exported="false" />
+        <activity
+            android:name=".Users.Staff.Finance.ActionFine"
+            android:exported="false" />
+        <activity
+            android:name=".Users.Staff.Finance.NewFines"
+            android:exported="false" />
+        <activity
+            android:name=".Users.Customers.FineDetails"
+            android:exported="false" />
+        <activity
+            android:name=".Users.Customers.MyFines"
+            android:exported="false" />
+        <activity
+            android:name=".Users.Staff.Supervisor.BookingFines"
+            android:exported="false" />
+
+<!--        <activity-->
+<!--            android:name=".Users.Staff.Store_man.AddStockSupplier"-->
+<!--            android:exported="false" />-->
+        <activity
+            android:name=".Users.Staff.Store_man.ReturnedItems"
+            android:exported="false" />
+        <activity
+            android:name=".Users.Staff.Store_man.ConfirmedReturns"
+            android:exported="false" />
+        <activity
+            android:name=".Users.Staff.Store_man.PendingConfirmReturn"
+            android:exported="false" />
+        <activity
+            android:name=".Users.Staff.Driver.ReturningItems"
+            android:exported="false" />
+        <activity
+            android:name=".Users.Staff.Driver.MyReturns"
+            android:exported="false" />
+        <activity
+            android:name=".Users.Staff.Driver.ItemsToReturn"
+            android:exported="false" />
+        <activity
+            android:name=".Users.Staff.Supervisor.ReturnItems"
+            android:exported="false" />
+        <activity
+            android:name=".Users.Staff.Supervisor.Returned"
+            android:exported="false" />
+        <activity
+            android:name=".Users.Staff.Supervisor.ShippingBack"
+            android:exported="false" />
+        <activity
+            android:name=".Users.Staff.Supervisor.PendingReturn"
+            android:exported="false" />
+
+        <activity
+            android:name=".Users.Staff.Store_man.StoreItems"
+            android:exported="false" />
+        <activity
+            android:name=".Users.Staff.Driver.Issued"
+            android:exported="false" />
+        <activity
+            android:name=".Users.Staff.Driver.AssgnDetails"
+            android:exported="false" />
+        <activity
+            android:name=".Users.Staff.Driver.Mydeliveries"
+            android:exported="false" />
+        <activity
+            android:name=".Users.Staff.Driver.Assignment"
+            android:exported="false" />
+        <activity
+            android:name=".Users.Staff.Shipping.Delivered"
+            android:exported="false" />
+        <activity
+            android:name=".Users.Staff.Shipping.Shipping"
+            android:exported="false" />
+        <activity
+            android:name=".Users.Staff.Shipping.AssignDrivers"
+            android:exported="false" />
+        <activity
+            android:name=".Users.Staff.Shipping.Drivers"
+            android:exported="false" />
+
+        <activity
+            android:name=".Users.Staff.Finance.Rejected"
+            android:exported="false" />
+        <activity
+            android:name=".Users.Staff.Finance.Approved"
+            android:exported="false" />
+        <activity
+            android:name=".Users.Staff.Items"
+            android:exported="false" />
+        <activity
+            android:name=".Users.Staff.Finance.NewBookings"
+            android:exported="false" />
+        <activity
+            android:name=".Users.Staff.Dashboard"
+            android:theme="@style/Theme.KAEWATMS.NoActionBar" /> <!-- <activity -->
+        <!-- android:name=".Users.Staff.EmpDashboardActivity" -->
+        <!-- android:exported="true" -->
+        <!-- android:label="@string/title_activity_emp_dashboard" -->
+        <!-- android:theme="@style/Theme.KAEWATMS.NoActionBar"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN" /> -->
+        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+        <!-- <activity -->
+        <!-- android:name=".Users.Staff.EmpDashboard" -->
+        <!-- android:exported="true" -->
+        <!-- android:label="@string/title_activity_emp_dashboard" -->
+        <!-- android:theme="@style/Theme.KAEWATMS.NoActionBar"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN" /> -->
+        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+        <!-- <activity -->
+        <!-- android:name=".Users.Staff.Staff_Dashboard" -->
+        <!-- android:exported="false" -->
+        <!-- android:label="@string/title_activity_staff_dashboard" -->
+        <!-- android:theme="@style/Theme.KAEWATMS.NoActionBar" /> -->
+        <!-- <activity -->
+        <!-- android:name=".Users.Staff.StaffDashboard" -->
+        <!-- android:exported="false" -->
+        <!-- android:label="@string/title_activity_staff_dashboard" -->
+        <!-- android:theme="@style/Theme.KAEWATMS.NoActionBar" /> -->
+        <!-- <activity -->
+        <!-- android:name=".Users.Staff.DashboardStaff" -->
+        <!-- android:exported="false" -->
+        <!-- android:label="@string/title_activity_dashboard_staff" -->
+        <!-- android:theme="@style/Theme.KAEWATMS.NoActionBar" /> -->
+        <!-- <activity -->
+        <!-- android:name=".Users.Staff.StaffDashboardActivity" -->
+        <!-- android:exported="false" -->
+        <!-- android:label="@string/title_activity_staff_dashboard" -->
+        <!-- android:theme="@style/Theme.KAEWATMS.NoActionBar" /> -->
+        <activity
+            android:name=".Users.Customers.PaymentItems"
+            android:exported="false"
+            tools:ignore="DuplicateActivity" />
+        <activity
+            android:name=".Users.Staff.Shipping.PendingShippingServ"
+            android:exported="false" />
+        <activity
+            android:name=".Users.Customers.EnterShipping"
+            android:exported="false" />
+        <activity
+            android:name=".Users.Customers.CheckOut"
+            android:exported="false" />
+        <activity
+            android:name=".Users.Customers.Services"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+    </application>
+
+</manifest>

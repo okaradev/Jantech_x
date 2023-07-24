@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Enter details to get technical services "
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="@color/text_color"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/price_Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Enter service "
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="@color/text_color"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edt_quantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="repair/installation"
+        android:textAlignment="center"
+        android:textColor="@color/text_color"
+        android:textStyle="bold">
+
+        <requestFocus />
+    </EditText>
+<!--    <EditText-->
+<!--        android:id="@+id/mpesacodeservice"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:inputType="text"-->
+<!--        android:hint="mpesacode ..."-->
+<!--        android:textAlignment="center"-->
+<!--        android:textColor="@color/text_color"-->
+<!--        android:textStyle="bold">-->
+
+
+<!--    </EditText>-->
+
+
+
+</LinearLayout>

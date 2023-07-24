@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.krypt.Hubble.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_cart"
+        android:name="com.krypt.Hubble.Users.Customers.CartFragment"
+        android:label="@string/cart"
+        tools:layout="@layout/cart_fragment" />
+    <fragment
+        android:id="@+id/navigation_ser"
+        android:name="com.krypt.Hubble.Users.Customers.ServiceFragment"
+        android:label="@string/title_ser"
+        tools:layout="@layout/cart_fragment" />
+    <fragment
+        android:id="@+id/navigation_account"
+        android:name="com.krypt.Hubble.Users.Customers.ProfileFragment"
+        android:label="@string/profile"
+        tools:layout="@layout/profile_fragment" />
+    <fragment
+        android:id="@+id/navigation_bookings"
+        android:name="com.krypt.Hubble.Users.Customers.PaymentFragment"
+        android:label="@string/bookings"
+        tools:layout="@layout/bookings_fragment" />
+  <!--  <fragment
+        android:id="@+id/navigation_login"
+        android:name=""com.krypt.firelinesafety.Login"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" />-->
+
+</navigation>

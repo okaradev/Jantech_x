@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Hubble app</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Logout</string>
+    <string name="cart">Cart</string>
+    <string name="profile">Profile</string>
+    <string name="login">login</string>
+    <string name="sendto">Send to Cart</string>
+    <string name="sendservice">Pay for service</string>
+    <string name="cancel">Cancel</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bookings">Transactions</string>
+    <string name="evnts">Log out</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Hubble services</string>
+    <string name="nav_header_subtitle">hubble@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_ser">Services</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_staff_dashboard">StaffDashboard</string>
+    <string name="title_activity_dashboard_staff">DashboardStaff</string>
+    <string name="title_activity_emp_dashboard">EmpDashboard</string>
+    <string name="title_activity_user_dashboard">UserDashboard</string>
+    <string name="title_activity_profile_dash_board">ProfileDashBoard</string>
+
+    <string name="about">
+Hubble ltd provide  products to commercial, public and industrial customers such as parastatals, hospitals, churches, schools, universities, wildlife conservancies, agricultural, hospitality and oil industry as well as county governments, community groups, SMEs, estate agents, landlords and home owners.
+
+We offer high-quality  equipment at competitive prices, manufactured by reputable companies.\n\n
+        In total we supply over 400 products and services both personally and online.Hubble will find the best solutions for you, our customers and we guarantee that we won’t be beaten on our value proposition, as part of our best price guarantee.
+
+    </string>
+    <string name="help">
+
+        <b>How to login</b>
+        \n
+        1. click on login
+        \n
+        2. Enter your username and password
+        \n
+        3. Click on the login button to login.
+        \n
+        \n
+        <b>Ho to register</b>
+        \n
+        1. Click on register link
+        \n
+        2. on the next interface enter the required details
+        \n
+        3. click on the register button to register
+        \n
+        \n
+        \n
+        1. Login to your account
+        \n
+        2. select a product/service
+        \n
+        3. Enter the quantity in products
+        \n
+        4. click on send to cart
+    </string>
+
+</resources>
